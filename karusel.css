@@ -1,0 +1,31 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.karusel {
+    width: 90%;
+    border: 1px solid black;
+    height: 500px;
+    margin-left: 5%;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr; 
+    gap: 0px 2px; 
+    grid-template-areas: 
+    ". . ."; 
+}
+.karusel div {
+    border: 1px solid black;
+}
+.karusel img {
+    position: absolute;
+}
+.arrowLeft {
+    top: 25%;
+    left: -1%;
+}
+.arrowRight {
+    top: 25%;
+    left: 94%;
+}
+
